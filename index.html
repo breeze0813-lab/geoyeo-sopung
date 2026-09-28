@@ -1,0 +1,261 @@
+<!doctype html>
+<html lang="ko">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<meta name="description" content="2026. 10. 31.(토) 거여초등학교 학부모회 가족참여행사 안내">
+<meta property="og:title" content="걷고 나누는 거여 가족 가을 소풍">
+<meta property="og:description" content="10월 31일(토) 09:00~12:00 · 성내천 가족 걷기 · 책 나눔 · 사진 콘테스트">
+<title>걷고 나누는 거여 가족 가을 소풍</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Gowun+Batang:wght@400;700&family=IBM+Plex+Sans+KR:wght@400;500;600;700&display=swap">
+<style>
+:root{
+  --ground:#f6f7f2; --paper:#ffffff; --ink:#1d2a26; --ink-2:#4a5a54; --line:#d9e0d8;
+  --stream:#1f6f6a; --stream-soft:#e2efec; --ginkgo:#e9b21c; --ginkgo-soft:#fbf1d2; --ginkgo-ink:#6b4f00;
+  --leaf:#b5471f; --leaf-soft:#f7e3da;
+  --serif:"Gowun Batang","Nanum Myeongjo",serif;
+  --sans:"IBM Plex Sans KR","Apple SD Gothic Neo","Malgun Gothic",system-ui,sans-serif;
+}
+@media (prefers-color-scheme: dark){
+  :root:not([data-theme="light"]){
+    --ground:#121a18; --paper:#1a2522; --ink:#e8eee9; --ink-2:#a9b8b1; --line:#2f3d39;
+    --stream:#6cc3ba; --stream-soft:#1d3532; --ginkgo:#f0c24a; --ginkgo-soft:#342b12; --ginkgo-ink:#f3d57e;
+    --leaf:#ee8a63; --leaf-soft:#3a241b;
+  }
+}
+:root[data-theme="dark"]{
+  --ground:#121a18; --paper:#1a2522; --ink:#e8eee9; --ink-2:#a9b8b1; --line:#2f3d39;
+  --stream:#6cc3ba; --stream-soft:#1d3532; --ginkgo:#f0c24a; --ginkgo-soft:#342b12; --ginkgo-ink:#f3d57e;
+  --leaf:#ee8a63; --leaf-soft:#3a241b;
+}
+*{box-sizing:border-box}
+body{background:var(--ground);color:var(--ink);font-family:var(--sans);font-size:16px;line-height:1.7;margin:0;padding-inline:16px;word-break:keep-all}
+.wrap{max-width:760px;margin:0 auto;padding-block:28px 64px;display:flex;flex-direction:column;gap:56px}
+h1,h2,h3{font-family:var(--serif);text-wrap:balance;margin:0;line-height:1.3}
+h2{font-size:1.6rem}
+h3{font-size:1.15rem}
+p{margin:0}
+.eyebrow{font-size:.8rem;letter-spacing:.08em;color:var(--stream);font-weight:600}
+.muted{color:var(--ink-2)}
+.small{font-size:.88rem}
+
+.hero{display:flex;flex-direction:column;gap:18px}
+.hero h1{font-size:clamp(2rem,7vw,3.1rem)}
+.hero h1 em{font-style:normal;color:var(--stream)}
+.hero .sub{font-family:var(--serif);font-size:1.15rem;color:var(--ink-2)}
+.facts{display:grid;grid-template-columns:repeat(auto-fit,minmax(200px,1fr));gap:1px;background:var(--line);border:1px solid var(--line);border-radius:14px;overflow:hidden}
+.fact{background:var(--paper);padding:14px 16px;display:flex;flex-direction:column;gap:2px}
+.fact b{font-size:.78rem;color:var(--ink-2);font-weight:500;letter-spacing:.04em}
+.fact span{font-weight:600;font-variant-numeric:tabular-nums}
+.fact small{font-size:.8rem;color:var(--ink-2);font-weight:400}
+.route{width:100%;height:auto;display:block}
+.route text{font-family:var(--sans);font-size:12px;fill:var(--ink-2)}
+
+.sec{display:flex;flex-direction:column;gap:20px}
+.sec-head{display:flex;flex-direction:column;gap:6px}
+
+.gifts{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:14px}
+.gift{background:var(--paper);border:1px solid var(--line);border-radius:14px;padding:20px;display:flex;flex-direction:column;gap:10px}
+.tag{align-self:flex-start;font-size:.75rem;font-weight:600;padding:2px 10px;border-radius:999px}
+.t-book{background:var(--ginkgo-soft);color:var(--ginkgo-ink)}
+.t-walk{background:var(--stream-soft);color:var(--stream)}
+.t-photo{background:var(--leaf-soft);color:var(--leaf)}
+
+.coupon{position:relative;display:grid;grid-template-columns:1fr auto;background:var(--ginkgo-soft);border-radius:16px;overflow:hidden}
+.coupon-main{padding:22px 22px 22px 24px;display:flex;flex-direction:column;gap:8px}
+.coupon-main .big{font-family:var(--serif);font-size:clamp(1.3rem,4.6vw,1.75rem);font-weight:700;color:var(--ginkgo-ink)}
+.coupon-stub{border-left:2px dashed var(--ginkgo);padding:22px 20px;display:flex;flex-direction:column;align-items:center;justify-content:center;gap:2px;color:var(--ginkgo-ink);min-width:96px}
+.coupon-stub strong{font-family:var(--serif);font-size:2.4rem;line-height:1}
+.coupon::before,.coupon::after{content:"";position:absolute;right:calc(96px + 11px);width:22px;height:22px;border-radius:50%;background:var(--ground)}
+.coupon::before{top:-11px}.coupon::after{bottom:-11px}
+.rules{list-style:none;margin:0;padding:0;display:flex;flex-direction:column;border-top:1px solid var(--line)}
+.rules li{display:grid;grid-template-columns:7.5rem 1fr;gap:12px;padding:12px 0;border-bottom:1px solid var(--line)}
+.rules li b{color:var(--ginkgo-ink);font-weight:600}
+.rules.safe li b{color:var(--leaf)}
+@media (max-width:480px){.rules li{grid-template-columns:1fr;gap:2px}.coupon{grid-template-columns:1fr}.coupon-stub{border-left:0;border-top:2px dashed var(--ginkgo);flex-direction:row;gap:10px;padding:14px}.coupon::before,.coupon::after{display:none}}
+
+.progs{display:flex;flex-direction:column;border-top:1px solid var(--line)}
+.prog{display:grid;grid-template-columns:9.5rem 1fr;gap:16px;padding:18px 0;border-bottom:1px solid var(--line)}
+.prog .who{font-size:.85rem;color:var(--ink-2);display:flex;flex-direction:column;gap:2px}
+.prog .who b{color:var(--ink);font-size:1rem;font-family:var(--serif)}
+.prog p{color:var(--ink-2)}
+@media (max-width:520px){.prog{grid-template-columns:1fr;gap:6px}}
+
+.tl{list-style:none;margin:0;padding:0;display:flex;flex-direction:column}
+.tl li{display:grid;grid-template-columns:6.2rem 1fr;gap:14px;padding:12px 0;position:relative}
+.tl li+li{border-top:1px dashed var(--line)}
+.tl time{font-variant-numeric:tabular-nums;font-weight:600;color:var(--stream)}
+.tl li.end time,.tl li.end span b{color:var(--leaf)}
+.tl span b{display:block}
+
+.two{display:grid;grid-template-columns:repeat(auto-fit,minmax(260px,1fr));gap:14px}
+.box{background:var(--paper);border:1px solid var(--line);border-radius:14px;padding:20px;display:flex;flex-direction:column;gap:10px}
+.box ul{margin:0;padding-left:1.1rem;display:flex;flex-direction:column;gap:6px}
+.box.warn{border-color:var(--leaf);}
+.box.warn h3{color:var(--leaf)}
+
+.cta{background:var(--stream);color:#fff;border-radius:18px;padding:28px 24px;display:flex;flex-direction:column;gap:12px}
+.cta h2{color:#fff}
+.cta p{color:rgba(255,255,255,.88)}
+.cta .deadline{font-family:var(--serif);font-size:1.3rem;font-weight:700;color:#fff}
+.cta .steps{display:grid;grid-template-columns:repeat(auto-fit,minmax(180px,1fr));gap:10px;margin-top:6px}
+.cta .steps div{background:rgba(255,255,255,.12);border-radius:12px;padding:12px 14px;font-size:.92rem}
+.cta .steps div b{display:block;font-size:.75rem;opacity:.8;font-weight:600}
+@media (prefers-color-scheme: dark){:root:not([data-theme="light"]) .cta{color:#0f1f1d}:root:not([data-theme="light"]) .cta h2,:root:not([data-theme="light"]) .cta .deadline{color:#0f1f1d}:root:not([data-theme="light"]) .cta p{color:rgba(15,31,29,.85)}:root:not([data-theme="light"]) .cta .steps div{background:rgba(0,0,0,.1)}}
+:root[data-theme="dark"] .cta{color:#0f1f1d}:root[data-theme="dark"] .cta h2,:root[data-theme="dark"] .cta .deadline{color:#0f1f1d}:root[data-theme="dark"] .cta p{color:rgba(15,31,29,.85)}:root[data-theme="dark"] .cta .steps div{background:rgba(0,0,0,.1)}
+footer{font-size:.85rem;color:var(--ink-2);display:flex;flex-direction:column;gap:4px;border-top:1px solid var(--line);padding-top:18px}
+</style>
+
+</head>
+<body>
+<div class="wrap">
+
+<header class="hero">
+  <p class="eyebrow">2026 거여초등학교 학부모회 · 가족참여행사</p>
+  <h1>걷고 나누는<br><em>거여 가족 가을 소풍</em></h1>
+  <p class="sub">토요일 아침, 가족이 함께 걷고 · 묻고 · 나눠요</p>
+  <p class="muted">한 해 동안 활동한 학부모회 동아리 네 곳과 학부모회가 준비한 가을 소풍입니다. 성내천을 따라 걸으며 미션을 풀고, 우리 집 책을 새로운 책으로 바꿔 가세요.</p>
+  <div class="facts">
+    <div class="fact"><b>일시</b><span>10월 31일(토) 09:00 ~ 12:00</span></div>
+    <div class="fact"><b>장소</b><span>학교 운동장 출발 · 성내천 · 운동장 복귀</span></div>
+    <div class="fact"><b>대상</b><span>거여초 가족 누구나</span><small>거여초가 아닌 형제·자매도 함께 · 학생은 보호자 동반 필수</small></div>
+    <div class="fact"><b>신청</b><span>이알리미 회신 · 10월 15일(목)까지</span><small>가족당 보호자 대표 1명만 회신</small></div>
+  </div>
+  <svg class="route" viewBox="0 0 720 120" role="img" aria-label="운동장에서 출발해 성내천의 3개 미션 장소를 지나 운동장으로 돌아오는 코스">
+    <path d="M40 80 C 130 20, 200 20, 270 60 S 420 110, 500 60 S 640 20, 680 80" fill="none" stroke="var(--stream)" stroke-width="4" stroke-linecap="round" stroke-dasharray="2 10"/>
+    <circle cx="40" cy="80" r="10" fill="var(--leaf)"/><text x="40" y="110" text-anchor="middle">운동장</text>
+    <circle cx="190" cy="32" r="10" fill="var(--paper)" stroke="var(--stream)" stroke-width="3"/><text x="190" y="14" text-anchor="middle">미션 1</text>
+    <circle cx="390" cy="84" r="10" fill="var(--paper)" stroke="var(--stream)" stroke-width="3"/><text x="390" y="114" text-anchor="middle">미션 2</text>
+    <circle cx="560" cy="40" r="10" fill="var(--paper)" stroke="var(--stream)" stroke-width="3"/><text x="560" y="20" text-anchor="middle">미션 3</text>
+    <circle cx="680" cy="80" r="10" fill="var(--ginkgo)"/><text x="680" y="110" text-anchor="middle">완주!</text>
+  </svg>
+</header>
+
+<section class="sec" aria-labelledby="h-gifts">
+  <div class="sec-head">
+    <p class="eyebrow">이날 챙겨 갈 수 있는 것</p>
+    <h2 id="h-gifts">세 가지 선물이 기다려요</h2>
+  </div>
+  <div class="gifts">
+    <article class="gift"><span class="tag t-book">책 나눔</span><h3>우리 집 책 한 권이<br>새 책 한 권으로</h3><p class="muted small">다 읽은 책을 가져오면, 운동장 책 나눔 마당에서 다른 가족의 책으로 바꿔 갈 수 있어요. 남은 쿠폰으로는 학용품 뽑기도!</p></article>
+    <article class="gift"><span class="tag t-walk">선물꾸러미</span><h3>마지막까지 함께한 가족에게<br>선물꾸러미</h3><p class="muted small">걷기와 나눔장터가 끝나면 사진 콘테스트 시상과 함께 선물꾸러미를 드려요. 무엇이 들었는지는 당일 공개!</p></article>
+    <article class="gift"><span class="tag t-photo">포토 콘테스트</span><h3>성내천 가을 한 장으로<br>상품에 도전</h3><p class="muted small">걷는 길에 찍은 자연 사진을 패들렛에 올리면 바로 인화해 전시해요. 참여 가족이 스티커로 투표해 수상작을 뽑아요.</p></article>
+  </div>
+</section>
+
+<section class="sec" aria-labelledby="h-coupon">
+  <div class="sec-head">
+    <p class="eyebrow">책 나눔 쿠폰</p>
+    <h2 id="h-coupon">책 한 권 = 쿠폰 한 장</h2>
+  </div>
+  <div class="coupon">
+    <div class="coupon-main">
+      <span class="big">나눈 만큼, 새 책으로 바꿔 가요</span>
+      <span class="small" style="color:var(--ginkgo-ink)">쿠폰 1장으로 책 나눔 마당의 책 1권을 골라 갈 수 있습니다.</span>
+    </div>
+    <div class="coupon-stub"><strong>1</strong><span class="small">권 = 1장</span></div>
+  </div>
+  <ul class="rules">
+    <li><b>누구나 기본</b><span>참여 가족 모두에게 기본 쿠폰 2장</span></li>
+    <li><b>책을 나누면</b><span>가져온 책 1권마다 쿠폰 1장 추가</span></li>
+    <li><b>미션을 완주하면</b><span>쿠폰 1장 추가</span></li>
+    <li><b>쿠폰이 남으면</b><span>책을 바꾸고 남은 쿠폰은 뽑기 머신에 넣어 지우개 같은 소소한 학용품을 뽑을 수 있어요</span></li>
+    <li><b>가져올 책</b><span>깨끗한 그림책, 동화책, 아동 도서</span></li>
+    <li><b>받지 않는 책</b><span>문제집, 학습지, 낙서나 훼손이 심한 책</span></li>
+    <li><b>가져오는 때</b><span><strong>10월 31일(토) 오전 접수 시간</strong>에 가져와 주세요 (사전 수거 없음)</span></li>
+  </ul>
+  <p class="muted small">교환되지 않고 남은 책은 돌려드리지 않고, 필요한 곳에 기증합니다.</p>
+</section>
+
+<section class="sec" aria-labelledby="h-prog">
+  <div class="sec-head">
+    <p class="eyebrow">누가 무엇을 준비했나</p>
+    <h2 id="h-prog">동아리들이 한 해 동안 쌓은 것을 펼쳐요</h2>
+  </div>
+  <div class="progs">
+    <div class="prog"><div class="who"><b>성내천 가족 걷기</b>러닝크루 거여런</div><p>출발 전 가족 준비운동을 함께해요. 접수 때 받은 지도를 들고, 걷는 동안에는 가족끼리 우리 집 속도로 걸어요.</p></div>
+    <div class="prog"><div class="who"><b>QR 미션 · 출석 체크</b>디지털 부모 연구소</div><p>지도에 표시된 미션 장소 3곳에서 QR을 찍어 미션을 확인하고, <b>가족이 모두 함께 나온 인증 사진</b>을 패들렛에 올려요. 3곳을 모두 인증하면 완주입니다.</p></div>
+    <div class="prog"><div class="who"><b>가족 대화 질문카드</b>함께 크는 엄마들</div><p>「질문하는 학교」의 질문카드를 들고 걸으며 평소 못 나눈 이야기를 주고받아요. 운동장으로 돌아와 질문지를 작성해 제출하면 인증 선물을 드려요.</p></div>
+    <div class="prog"><div class="who"><b>자연 사진 콘테스트</b>마음 빚는 공방</div><p>가을 성내천에서 찾은 예쁜 자연을 찍어 패들렛에 올리면, 바로 인화해 운동장 보드에 전시해요. 전시된 사진에 스티커로 투표해요.</p></div>
+    <div class="prog"><div class="who"><b>책 나눔 마당</b>거여초 학부모회</div><p>가정에서 가져온 책을 모아 운동장에 펼치고, 쿠폰으로 마음에 드는 책을 바꿔 갑니다.</p></div>
+  </div>
+</section>
+
+<section class="sec" aria-labelledby="h-tl">
+  <div class="sec-head">
+    <p class="eyebrow">10월 31일 토요일</p>
+    <h2 id="h-tl">오전 세 시간의 흐름</h2>
+    <p class="muted small">따로 개회식 없이, 오시는 대로 접수하고 준비된 가족부터 출발해요.</p>
+  </div>
+  <ol class="tl">
+    <li><time>09:00</time><span><b>도착한 순서대로 접수</b><span class="muted small">출석 확인 · 나눔할 책 제출 · 쿠폰, 걷기 지도, 생수(1인 1병) 받기 · 미션 방법 안내</span></span></li>
+    <li><time>09:30</time><span><b>러닝크루 거여런과 가족 준비운동 · 안전 안내</b></span></li>
+    <li><time>이어서</time><span><b>준비된 가족부터 성내천 걷기 출발</b><span class="muted small">지도를 따라 미션 장소 3곳 가족 인증샷 · 질문카드 대화 · 콘테스트용 자연 사진</span></span></li>
+    <li><time>복귀 후</time><span><b>완주 확인 · 질문지 제출 · 책 교환 · 쿠폰 뽑기 · 사진 투표</b><span class="muted small">돌아온 가족부터 차례로 즐겨요. 올린 사진은 바로 인화되어 전시돼요</span></span></li>
+    <li><time>마무리</time><span><b>사진 콘테스트 시상 · 선물꾸러미 증정</b><span class="muted small">마지막 순서까지 함께해 주세요!</span></span></li>
+    <li class="end"><time>12:00</time><span><b>행사 종료</b></span></li>
+  </ol>
+</section>
+
+<section class="sec" aria-labelledby="h-safe">
+  <div class="sec-head">
+    <p class="eyebrow">안전 약속</p>
+    <h2 id="h-safe">모두가 웃으며 돌아오도록</h2>
+    <p class="muted small">코스에는 운영진이 따로 배치되지 않아요. 걷는 동안 아이를 지키는 사람은 함께 온 보호자뿐이에요. 이번 행사는 별도 보험에 가입되어 있지 않으니, 자녀의 안전은 보호자께서 꼭 책임져 주세요.</p>
+  </div>
+  <ul class="rules safe">
+    <li><b>아이는 보호자가</b><span>학생 혼자서는 참여할 수 없어요. 출발부터 운동장 복귀까지 보호자가 아이 곁을 떠나지 않아요. 어린 자녀는 손을 잡고, 아이 혼자 앞서가거나 뒤처지지 않게 늘 눈으로 확인해 주세요.</span></li>
+    <li><b>지도대로, 보행로로</b><span>지도에 안내된 코스만 걸어요. 자전거도로로 다니지 않고 보행로로만 걸어요.</span></li>
+    <li><b>물가는 멀리서</b><span>하천 가장자리, 징검다리, 경사면, 물속에는 들어가지 않아요. 자연 사진도 산책로 위에서 찍어요.</span></li>
+    <li><b>멈춰서 찍기</b><span>휴대폰을 보며 걷지 않아요. QR과 사진은 길 옆으로 비켜 멈춘 뒤에 찍어요.</span></li>
+    <li><b>함께 쓰는 길</b><span>성내천은 시민 모두의 산책로예요. 여러 가족이 길을 막고 서 있지 않아요. 쓰레기는 되가져가요.</span></li>
+    <li><b>힘들면 돌아오기</b><span>아이가 힘들어하거나 몸이 불편하면 무리하지 말고 멈춘 뒤, 지도에 적힌 비상 연락처로 알려 주세요. 미션을 다 못 해도 괜찮아요. 응급 상황에는 119에 먼저 연락해 주세요.</span></li>
+  </ul>
+</section>
+
+<section class="two" aria-label="준비물과 안내">
+  <div class="box">
+    <h3>챙겨 오세요</h3>
+    <ul>
+      <li>편한 복장과 운동화, 모자</li>
+      <li>보조가방 <span class="muted">(생수는 1인당 1병씩 드려요)</span></li>
+      <li>충전된 휴대폰 (QR 미션·가족 인증 사진용, 가족당 1대 이상)</li>
+      <li>나눔할 책 (있는 가정만)</li>
+      <li class="muted">있으면 좋아요: 셀카봉 (가족이 한 화면에 다 들어가게)</li>
+    </ul>
+  </div>
+  <div class="box warn">
+    <h3>꼭 확인해 주세요</h3>
+    <ul>
+      <li>안전 안내는 준비운동 때 함께 진행합니다. 들으신 뒤 출발해 주세요.</li>
+      <li>비가 오면 걷기를 빼고 학교 안에서 축소 운영합니다. 바뀌는 내용은 이알리미로 다시 안내드려요.</li>
+      <li>미션 인증 사진에는 가족 얼굴이 나와요. 패들렛은 참가 가족만 볼 수 있게 운영하고, 행사 뒤 정리합니다.</li>
+      <li>행사 사진·영상은 학부모회 행사 기록과 거여초 가족 간 공유(함께학교 밴드 등)에만 쓰며, 상업적 목적으로는 사용하지 않아요. 촬영을 원하지 않으시면 접수 때 운영진에게 말씀해 주세요.</li>
+    </ul>
+  </div>
+</section>
+
+<section class="cta" aria-labelledby="h-cta">
+  <h2 id="h-cta">신청은 이알리미에서</h2>
+  <p class="deadline">10월 15일(목)까지</p>
+  <p>교환권·생수·선물 수량을 정해야 해서 기한 내 신청을 꼭 부탁드려요. <b>가족당 보호자 대표 1명만</b> 회신해 주세요. 거여초에 다니는 자녀가 둘 이상이면 한 자녀의 이알리미로만 회신해 주세요.</p>
+  <div class="steps">
+    <div><b>필수</b>참여 여부 · 거여초 학생 학년·반·이름</div>
+    <div><b>필수</b>참여 가족 총 인원 (형제·자매 포함)</div>
+    <div><b>필수</b>안전 수칙 확인 및 활동 참여 동의</div>
+    <div><b>필수</b>개인정보 수집·이용 동의</div>
+  </div>
+  <p class="small">대표 보호자의 동의는 함께 참여하는 가족 모두에게 적용됩니다.</p>
+</section>
+
+<footer>
+  <span>주최 거여초등학교 학부모회 · 함께한 동아리: 러닝크루 거여런, 디지털 부모 연구소, 함께 크는 엄마들, 마음 빚는 공방</span>
+  <span>문의: 거여초 학부모 배움터 ‘함께학교’ 밴드</span>
+</footer>
+
+</div>
+
+</body>
+</html>
